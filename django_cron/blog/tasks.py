@@ -12,6 +12,16 @@ def my_first_task():
 
 
 @shared_task
+def my_second_task():
+    print('This is my second task')
+
+
+@shared_task
+def my_third_task():
+    print('This is my third task')
+
+
+@shared_task
 def add(x, y):
     return x + y
 
