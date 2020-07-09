@@ -6,9 +6,9 @@ from celery.schedules import crontab
 from datetime import timedelta
 
 
-@periodic_task(run_every=(timedelta(seconds=20)), name='FT')
-def my_first_task():
-    print('This is my first task')
+#@periodic_task(run_every=(timedelta(seconds=20)), name='FT')
+#def my_first_task():
+#    print('This is my first task')
 
 
 @shared_task
